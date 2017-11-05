@@ -25,7 +25,7 @@ import cz.consumer.interview.memsource.NotAuthorized;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 @TestPropertySource("/test.properties")
-public class MemsourceRestApiTest {
+public class MemsourceRestApiIT {
 	
 	@Autowired
 	MemsourceConfig memsourceConfig;
