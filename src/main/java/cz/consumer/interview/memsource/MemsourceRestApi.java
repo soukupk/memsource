@@ -7,8 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import cz.consumer.interview.AuthToken;
-import cz.consumer.interview.Project;
+import cz.consumer.interview.project.Project;
 
 @Service
 public class MemsourceRestApi implements MemsourceApi {

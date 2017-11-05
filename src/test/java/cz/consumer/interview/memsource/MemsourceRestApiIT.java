@@ -15,12 +15,7 @@ import org.springframework.test.context.TestPropertySource;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.web.client.RestTemplate;
 
-import cz.consumer.interview.AuthToken;
-import cz.consumer.interview.Project;
-import cz.consumer.interview.memsource.MemsourceApi;
-import cz.consumer.interview.memsource.MemsourceConfig;
-import cz.consumer.interview.memsource.MemsourceRestApi;
-import cz.consumer.interview.memsource.NotAuthorized;
+import cz.consumer.interview.project.Project;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest

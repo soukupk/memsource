@@ -1,4 +1,4 @@
-package cz.consumer.interview;
+package cz.consumer.interview.project;
 
 import java.util.List;
 import java.util.Locale;

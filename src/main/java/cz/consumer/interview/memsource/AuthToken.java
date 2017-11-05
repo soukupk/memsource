@@ -1,4 +1,4 @@
-package cz.consumer.interview;
+package cz.consumer.interview.memsource;
 
 import java.util.Date;
 

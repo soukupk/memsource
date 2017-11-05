@@ -2,8 +2,7 @@ package cz.consumer.interview.memsource;
 
 import java.util.List;
 
-import cz.consumer.interview.AuthToken;
-import cz.consumer.interview.Project;
+import cz.consumer.interview.project.Project;
 
 public interface MemsourceApi {
 

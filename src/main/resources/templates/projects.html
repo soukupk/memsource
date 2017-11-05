@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="/js/main.js"></script>
+<body ng-app="memsource" >
+
+<div ng-controller="projectController" ng-init="reloadProjects()">
+
+ <h2>Menu:</h2>
+ <a href="/">Setup page</a>
+
+<h2>Project list</h2>
+<input type="submit" ng-click="reloadProjects()" value="Reload" />
+<table>
+  <tr>
+  	<th>Name</th>
+  	<th>Status</th>
+	<th>Source lang</th>
+	<th>Target langs</th>
+  </tr>
+  <tr ng-repeat="project in projects">
+  	<td><strong ng-bind="project.name"></strong></td>
+  	<td ng-bind="project.status"></td>
+  	<td ng-bind="project.sourceLang"></td>
+  	<td>
+  		<span ng-repeat = "targetLang in project.targetLangs"><span ng-bind="targetLang"></span> </span>
+  	</td>
+  </tr>
+</table>
+
+<p ng-bind="listMessage"></p>
+
+</div>
+
+</body>
+</html>
